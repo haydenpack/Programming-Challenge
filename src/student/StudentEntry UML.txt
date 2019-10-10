@@ -1,0 +1,16 @@
+The StudentEntry class holds two main fields of data: the student's name and their appropriate ID Number.
+The main purpose of this class is to keep track of student data.
+
+StudentEntry
+    -name : String
+    -idNumber : int
+
+    +StudentEntry()
+    +StudentEntry(name : String)
+    +StudentEntry(idNumber : int)
+    +StudentEntry(name: String, idNumber : int)
+    +getName() : String
+    +getIDNumber() : int
+    +setName(name: String) : void
+    +setIDNumber(idNumber : int) : void
+    
